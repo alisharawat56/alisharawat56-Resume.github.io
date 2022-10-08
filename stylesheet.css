@@ -1,0 +1,184 @@
+
+body{
+    font-family: "Montserrat-Black";
+}
+
+h2{
+    font-family: "Montsterrat-Bold";
+}
+
+h3{
+    font-family: "Montsterrat-Bold";
+}
+
+p{
+    color:#afafaf;
+}
+
+
+
+/* title */
+#title{
+    background-color: #251B37;
+    color:#FFCACA;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+nav{
+    position:fixed;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size:2.5rem; 
+    font-weight: bold;
+    padding-left: 10rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montsterrat-Light";
+}
+
+.navbar-nav{
+    margin-left: 35rem;
+}
+
+.title-btn{
+    margin:5% 3% 5% 0;
+    color: #251B37;
+    background-color: #FFCACA;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 0.5rem;
+}
+
+.title-btn:hover{
+    background-color: #FFECEF;
+}
+
+.info{
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+
+h1{
+    font-family: "Montserrat-Black", sans-serif; 
+    text-decoration: underline ;
+    line-height:2px;
+    font-size: 20rem;
+}
+
+
+
+/* skills */
+#skills{
+    padding: 4% 10%;
+    background-color: #FFECEF;
+    position: relative;
+    text-align: center;
+}
+
+.skills-box{
+    text-align: center;
+    padding:5%;
+}
+
+.icon{
+    color: #251B37;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#372948 ;
+}
+
+
+
+/* projects */
+#projects{
+    padding: 3% 5%;
+    text-align: center;
+    background-color: #251B37;
+}
+
+.pro-col{
+    padding: 3% 2%;
+}
+
+#projects h2{
+    color: #FFCACA;
+}
+
+.header-card{
+    background-color: #FFCACA;
+    padding:1rem;
+}
+
+.body-card{
+    padding:2rem;
+    background-color: #FFECEF;
+}
+
+.card-btn{
+    margin:5% 3% 5% 0;
+    color: #251B37;
+    background-color: #FFCACA;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 0.5rem;
+}
+
+.card-btn:hover{
+    background-color:#e88c8c ;
+}
+
+
+
+/* contact */
+#contact{
+    background-color: #FFECEF;
+    text-align: center;
+    padding: 2% 15%;
+
+}
+
+.conimg{
+    margin: 20px 10px ;
+    color: #372948;
+}
+
+.conimg:hover{
+    color: #251B37;
+}
+
+#contact p{
+    color:#372948;
+}
+
+
+@media (max-width:1028px ){
+    #title{
+        text-align: center;
+    }
+}
+
